@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.light .Userid {
+  border: 2px solid #0c2233;
+}
+
+.Userid .user_info_container {
+  font-family: "Inter", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.Userid .user_info_container .Usercntslider {
+  width: 40%;
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.Userid .user_info_container h2 {
+  font-size: 2rem;
+}
+
+.Userid .sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+}
+
+.Userid .sub .Submit {
+  text-align: center;
+}
+
+.Userid .flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Userid .input_containers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 65%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.Userid .input_containers .inputcont {
+  margin-top: 0.8rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.svg_info {
+  height: 2vw;
+  width: 2vw;
+  margin-top: 20px;
+  display: none;
+}
+
+.Display {
+  width: 90vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 540px) {
+  .Userid .user_info_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .Userid .user_info_container h1 {
+    font-size: 1.5rem;
+  }
+  .Userid .user_info_container h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Display {
+    display: block;
+  }
+}
+/*# sourceMappingURL=Userid.css.map */

@@ -1,0 +1,20 @@
+h1 {
+  margin-bottom: -0.5rem;
+}
+
+.header .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 540px) {
+  .header h1 {
+    font-size: 1.8rem;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

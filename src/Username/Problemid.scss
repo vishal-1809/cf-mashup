@@ -1,0 +1,115 @@
+@import "../functions";
+@import "../_variables";
+
+.light {
+    .Problemid {
+        border: 2px solid $darkmode_bg;
+        .buttons {
+            .btns {
+                border: 2px solid $darkmode_bg;
+                background-color: $darkmode_bg;
+                color: white;
+            }
+        }
+    }
+}
+
+.Problemid {
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .buttons {
+        margin: 5px;
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 0.5rem;
+        grid-row-gap: 1.5rem;
+
+        .btns {
+            border: 2px solid $lightmode_bg;
+            border-radius: 2rem;
+            background-color: $lightmode_bg;
+            color: black;
+            margin: 2px;
+            padding: 1px;
+        }
+        
+        svg {
+            height: 1rem;
+            width: 1.5rem;
+        }
+
+        span {
+            font-size: 1.2rem;
+            padding: 2px;
+        }
+
+        .add {
+            background-color: rgb(6, 238, 6);
+            border-radius: 2rem;
+        }
+
+        .remove {
+            background-color: rgb(255, 0, 0);
+            border-radius: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .Problemid {
+        .buttons {
+            margin: 10px;
+            grid-template-columns: auto auto auto;
+            
+            span {
+                font-size: 0.9rem;
+            }
+        }
+
+    }
+}
+@media screen and (max-width: 680px) {
+    .Problemid {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        .buttons {
+            margin: 1px;
+            margin-top: 1rem;
+            grid-template-columns: auto auto;
+            grid-gap: 10px;
+
+            svg {
+                height: 1rem;
+                width: 1.5rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 956px) {
+    .Problemid {
+        .buttons {
+            grid-gap: 1rem;
+
+            svg {
+                width: 1rem;
+            }
+
+            span {
+                padding: 1px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .Problemid {
+        width: 95%;
+    }
+}

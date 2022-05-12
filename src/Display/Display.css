@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.display {
+  text-align: center;
+}
+
+.display h3 {
+  text-align: center;
+}
+
+.display .print .list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10vw 45vw 10vw;
+      grid-template-columns: 10vw 45vw 10vw;
+  grid-gap: 10px;
+}
+
+.display .print .list .rate, .display .print .list .name, .display .print .list .link {
+  padding: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .display .print .list {
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+  }
+}
+/*# sourceMappingURL=Display.css.map */

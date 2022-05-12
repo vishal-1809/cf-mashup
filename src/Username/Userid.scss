@@ -1,0 +1,128 @@
+@import "../functions";
+@import "../variables";
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.light {
+  .Userid {
+    border: 2px solid $darkmode_bg;
+  }
+}
+
+.Userid {
+  .user_info_container {
+      // border: 2px solid white;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    // width: 50rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+    .Usercntslider {
+      width: 40%;
+      width: 80%;
+      margin-top: 2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+  }
+  .sub {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+    .Submit {
+      text-align: center;
+    }
+  }
+  
+  .flex-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .input_containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 65%;
+    height: fit-content;
+    .inputcont {
+      margin-top: 0.8rem;
+      background-color: white;
+      border-radius: 1rem;
+    }
+  }
+}
+
+.txtsvg {
+  display: flex;
+}
+
+.svg_info {
+  height: 2vw;
+  width: 2vw;
+  margin-top: 20px;
+  display: none;
+}
+
+.Display {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 540px) {
+  .Userid {
+    .user_info_container {
+      display: flex;
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Display {
+    display: block;
+    // justify-content: center;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .svg_info {
+    height: 4vw;
+    width: 4vw;
+    margin-top: 20px;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .svg_info {
+    height: 6vw;
+    width: 6vw;
+    margin-top: 20px;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .svg_info {
+    height: 9vw;
+    width: 9vw;
+    margin-top: 20px;
+    display: none;
+  }
+}

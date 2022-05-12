@@ -1,0 +1,55 @@
+@import "./variables";
+
+.App {
+    // width: 100%;
+    padding: 10px;
+}
+
+.light {
+    background: $lightmode_bg;
+    color: black;
+    // border-color: black;
+    transition: 0.3s ease-in-out;
+
+    .Problemid {
+        .btns {
+            border: 2px solid $darkmode_bg;
+        }
+    }
+}
+
+.dark {
+    background: $darkmode_bg;
+    color: whitesmoke;
+    transition: 0.3s ease-in-out;
+}
+
+.divide {
+    width: 95vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-gap: 0.5rem;
+
+    .Userid, .Problemid {
+        border: 2px solid $lightmode_bg;
+        border-radius: 20px;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 905px) {
+    .divide {
+        // width: 90vw;
+        grid-template-rows: auto auto;
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .divide {
+        width: 80vw;
+    }
+}
+
+

@@ -1,0 +1,33 @@
+@import "../functions";
+@import "../variables";
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.display {
+    text-align: center;
+
+    h3 {
+        text-align: center;
+    }
+
+    .print {
+        .list {
+            display: grid;
+            grid-template-columns: 10vw 45vw 10vw;
+            grid-gap: 10px;
+
+            .rate, .name, .link {
+                padding: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .display {
+        .print {
+            .list {
+                grid-template-columns: auto auto auto;
+            }
+        }
+    }
+}

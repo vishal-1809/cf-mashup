@@ -1,0 +1,102 @@
+.light .Problemid {
+  border: 2px solid #0c2233;
+}
+
+.light .Problemid .buttons .btns {
+  border: 2px solid #0c2233;
+  background-color: #0c2233;
+  color: white;
+}
+
+.Problemid h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Problemid .buttons {
+  margin: 5px;
+  margin-top: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  grid-gap: 0.5rem;
+  grid-row-gap: 1.5rem;
+}
+
+.Problemid .buttons .btns {
+  border: 2px solid #eceff6;
+  border-radius: 2rem;
+  background-color: #eceff6;
+  color: black;
+  margin: 2px;
+  padding: 1px;
+}
+
+.Problemid .buttons svg {
+  height: 1rem;
+  width: 1.5rem;
+}
+
+.Problemid .buttons span {
+  font-size: 1.2rem;
+  padding: 2px;
+}
+
+.Problemid .buttons .add {
+  background-color: #06ee06;
+  border-radius: 2rem;
+}
+
+.Problemid .buttons .remove {
+  background-color: red;
+  border-radius: 2rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .Problemid .buttons {
+    margin: 10px;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+  }
+  .Problemid .buttons span {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .Problemid h1 {
+    font-size: 1.5rem;
+  }
+  .Problemid .buttons {
+    margin: 1px;
+    margin-top: 1rem;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    grid-gap: 10px;
+  }
+  .Problemid .buttons svg {
+    height: 1rem;
+    width: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 956px) {
+  .Problemid .buttons {
+    grid-gap: 1rem;
+  }
+  .Problemid .buttons svg {
+    width: 1rem;
+  }
+  .Problemid .buttons span {
+    padding: 1px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .Problemid {
+    width: 95%;
+  }
+}
+/*# sourceMappingURL=Problemid.css.map */

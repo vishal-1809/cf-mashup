@@ -1,0 +1,54 @@
+.App {
+  padding: 10px;
+}
+
+.light {
+  background: #eceff6;
+  color: black;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.light .Problemid .btns {
+  border: 2px solid #0c2233;
+}
+
+.dark {
+  background: #0c2233;
+  color: whitesmoke;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.divide {
+  width: 95vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  grid-gap: 0.5rem;
+}
+
+.divide .Userid, .divide .Problemid {
+  border: 2px solid #eceff6;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 905px) {
+  .divide {
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .divide {
+    width: 80vw;
+  }
+}
+/*# sourceMappingURL=App.css.map */

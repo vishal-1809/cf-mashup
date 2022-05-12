@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import "./variables";
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  // padding-top: 1rem;
+  // padding-bottom: 2rem;
+  // padding-left: 5rem;
+  // padding-right: 5rem;
+  // padding: 1rem 2rem 1rem 2rem;   // commented here for avoidind extra padding by Vishal 
+  padding: 1rem 1rem 1rem 1rem; 
+  /* background: var(--lightmode_bg);
+  color: #272343; */
+  background: $darkmode_bg;
+  color: #eceff6;
+  // border: 2px solid white;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
